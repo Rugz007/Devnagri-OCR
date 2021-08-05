@@ -1,9 +1,15 @@
-# Devanagri OCR
-Optical Character Recognition for Devnagri Characters using Tensorflow 2.
+# Devanagari OCR
+Optical Character Recognition for Devanagari Characters using Tensorflow 2.
 
 We have used our own custom CNN model architecture to get an accuracy of 96.63% on the test set.
 
 Link of the dataset: [**Devanagari Handwritten Character Data Set**](https://archive.ics.uci.edu/ml/datasets/Devanagari+Handwritten+Character+Dataset)
+
+## Dataset
+The data set contains 32x32px images of Devanagari Characters
+
+![Sample image](https://i.imgur.com/4KSMzd7.png)
+You can use *test.ipynb* notebook to predict your own hand drawn characters. The image size needed is 32x32px
 
 ## Training Results
 
@@ -13,7 +19,7 @@ Link of the dataset: [**Devanagari Handwritten Character Data Set**](https://arc
 ![accuracy graph](https://i.imgur.com/0yPggVb.png)
 
 
-Model Training after epoch 18
+### Model Training after epoch 18
 
     Epoch 18/20
     1100/1100 [==============================] - 25s 22ms/step - loss: 0.2892 - accuracy: 0.9767 - val_loss: 0.5923 - val_accuracy: 0.9036
